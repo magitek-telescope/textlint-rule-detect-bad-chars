@@ -8,6 +8,8 @@
 
 TextLint rule for detect `U+0008`
 
+[![Image from Gyazo](https://i.gyazo.com/93d39f0e118bf2012c1b3975668a1ae9.png)](https://gyazo.com/93d39f0e118bf2012c1b3975668a1ae9)
+
 ## Installation
 
 ```bash

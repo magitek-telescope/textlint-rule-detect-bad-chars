@@ -12,7 +12,7 @@ $ yarn add textlint-rule-detect-bad-chars # or npm install
 
 ```bash
 $ yarn add textlint textlint-rule-detect-bad-chars # or npm install
-$ yarn textlint textlint --rule textlint-rule-detect-bad-chars text-to-check.md
+$ yarn textlint --rule textlint-rule-detect-bad-chars text-to-check.md
 ```
 
 ## Features

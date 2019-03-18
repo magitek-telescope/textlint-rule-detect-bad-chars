@@ -1,8 +1,19 @@
 {
   "name": "textlint-rule-detect-bad-chars",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "rules/textlint-rule-detect-bad-chars/textlint-rule-detect-bad-chars.js",
   "repository": "ssh://git@github.com/potato4d/textlint-rule-detect-bad-chars.git",
   "author": "HANATANI Takuma <mail@potato4d.me>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "lint:text": "textlint --rulesdir ./rules/textlint-rule-detect-bad-chars example/*.md",
+    "format": "prettier './**/*.{md,js}' --write"
+  },
+  "dependencies": {
+    "mdast-util-to-string": "^1.0.5"
+  },
+  "devDependencies": {
+    "prettier": "^1.16.4",
+    "textlint": "^11.2.3"
+  }
 }

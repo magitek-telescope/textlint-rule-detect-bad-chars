@@ -1,6 +1,6 @@
 {
   "name": "textlint-rule-detect-bad-chars",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "rules/textlint-rule-detect-bad-chars/textlint-rule-detect-bad-chars.js",
   "repository": "ssh://git@github.com/potato4d/textlint-rule-detect-bad-chars.git",
   "author": "HANATANI Takuma <mail@potato4d.me>",

@@ -13,7 +13,7 @@
     "mdast-util-to-string": "^1.0.5"
   },
   "devDependencies": {
-    "prettier": "1.16.4",
+    "prettier": "1.17.0",
     "standard-version": "5.0.2",
     "textlint": "11.2.3"
   }
